@@ -17,8 +17,8 @@ function repeatStr(n, s) {
 
 function repeatStr(n, s) {
     let str = '';
-    for (let i = 0; i < n; i++) {
-        str += s
+    for (let i = 0; i < n; i++) {    //iterate through n times
+        str += s            //with each iteration add s to the string str
     }
     return str
 }
