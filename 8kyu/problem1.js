@@ -33,3 +33,7 @@ function positiveSum(arr) {
 /////////////////////////////////////////////
 // SOLUTION 3
 /////////////////////////////////////////////
+
+// function positiveSum(arr) {
+//     return arr.reduce((sum, n) => n > 0 ? n + sum : sum, 0)
+// }
