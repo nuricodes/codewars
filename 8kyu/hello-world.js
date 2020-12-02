@@ -1,0 +1,6 @@
+// Make a simple function called greet that returns the most-famous "hello world!".
+
+/////////////////////////////////////////////
+// SOLUTION 1
+/////////////////////////////////////////////
+const greeting = () => "hello world!";
