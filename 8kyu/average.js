@@ -1,0 +1,17 @@
+// Write function avg which calculates average of numbers in given list.
+
+/////////////////////////////////////////////
+// SOLUTION 1
+/////////////////////////////////////////////
+
+function find_average(arr) {
+    return (arr.reduce((a, c) => a + c)) / arr.length
+}
+
+/////////////////////////////////////////////
+// SOLUTION 2
+///////////////////////////////////////////// 
+
+const find_average = (arr) => (arr.reduce((a, c) => a + c)) / arr.length
+
+
