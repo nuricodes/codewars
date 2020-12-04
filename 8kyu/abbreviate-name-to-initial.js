@@ -13,7 +13,7 @@ function abbrevName(name) {
 /////////////////////////////////////////////
 
 function abbrevName(name) {
-    return name.split(' ').map(n => n.charAt()).join('.')
+    return name.split(' ').map(n => n.charAt().toUpperCase()).join('.')
 }
 
 /////////////////////////////////////////////
@@ -22,7 +22,7 @@ function abbrevName(name) {
 
 function abbrevName(name) {
     let a = name.split(' ')
-    return a[0].charAt() + '.' + a[1].charAt()
+    return (a[0].charAt() + '.' + a[1].charAt()).toUpperCase()
 }
 
 /////////////////////////////////////////////
@@ -30,5 +30,5 @@ function abbrevName(name) {
 /////////////////////////////////////////////
 
 function abbrevName(name) {
-    return name.split(' ').map(x => x.substr(0, 1)).join('.')
+    return name.split(' ').map(x => x.substr(0, 1).toUpperCase()).join('.') //subtr extracts between index' listed
 }
