@@ -10,9 +10,11 @@
 // SECTION 1
 ///////////////////////////////////////////////////////////////
 function disemvowel(str) {
-    //str.split('').reduce((a, b) => a + ('aeiou'.includes(b), []))
-    let vowels = ['a', 'e', 'i', 'o', 'u'];
-    return str.split('').filter(c => !vowels.includes(c)).join('')
+    let vowels = ['a', 'e', 'i', 'o', 'u']
+    return str.split('').filter(a => !vowels.includes(a.toLowerCase())).join('')
 }
 
-disemvowel("This website is for losers LOL!")
+
+///////////////////////////////////////////////////////////////
+// SECTION 2
+///////////////////////////////////////////////////////////////
