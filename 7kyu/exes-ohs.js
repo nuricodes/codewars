@@ -54,3 +54,18 @@ function XO(str) {
 function XO(str) {
     return str.toLowerCase().split('o').length === str.toLowerCase().split('x').length
 }
+
+function XO(str) {
+    let x = 0;
+    let o = 0;
+    str = str.toLowerCase()
+    for (let i = 0; i <= str.length; i++) {
+        if (str[i] === 'x') {
+            x++
+        } else if (str[i] === 'o') {
+            o++
+        }
+
+    }
+    return x === o
+}
