@@ -4,6 +4,11 @@
 
 // If the parameter is itself not a perfect square then -1 should be returned. You may assume the parameter is positive.
 
+// Solution 2
+function findNextSquare(sq) {
+    return Math.sqrt(sq) % 1 != 0 ? -1 : Math.pow(Math.sqrt(sq) + 1, 2)
+}
+
 // Solution 1
 function findNextSquare(sq) {
     // Return the next square if sq is a perfect square, -1 otherwise
