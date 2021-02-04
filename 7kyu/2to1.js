@@ -37,3 +37,20 @@ function longest(s1, s2) {
     }
     return distStr.split("").sort().join("")
 }
+
+function findNextSquare(sq) {
+    // Return the next square if sq is a perfect square, -1 otherwise
+    //if sqrt !have a remainder of 0 then return -
+    if (square % 1 != 0) {
+        return -1;
+    }
+    //find sqrt of the parameter store in variable
+    var square = Math.sqrt(sq)
+    //   add 1 to the variable store in variable
+    let nextNum = square + 1
+    //multiply that variable by itself
+    return nextNum * nextNum
+    //   
+
+
+}
